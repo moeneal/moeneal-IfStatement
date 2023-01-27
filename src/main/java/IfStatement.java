@@ -22,14 +22,34 @@ public class IfStatement {
     public int ifExample(boolean bool, int x, int y){
 
         int result = 1;
-      
-        if(bool = false)
+                  System.out.print(bool);
+
+        if(bool == true)
         {
-            result = y;
+              result=0;
+            result = x;
 
             System.out.print(result);
+                              System.out.print(x);
+                                                System.out.print(y);
+
+
+        }
+        else{
+            if(bool == false){
+                y = 1;
+                 result = y;
+                     System.out.print("made it");
+
+         System.out.print(result);
+             System.out.print(x);
+                                                System.out.print(y);
+            }
+        
+
         }
 
+       
         
         return result;
 
