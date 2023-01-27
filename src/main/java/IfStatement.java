@@ -20,6 +20,18 @@ public class IfStatement {
      * @return x if bool is true. if bool is false, return y.
      */
     public int ifExample(boolean bool, int x, int y){
-        return 0;
+
+        int result = 1;
+      
+        if(bool = false)
+        {
+            result = y;
+
+            System.out.print(result);
+        }
+
+        
+        return result;
+
     }
 }
